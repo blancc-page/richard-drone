@@ -2,7 +2,7 @@
   { "use strict"
   
 
-/* 1. Proloder */
+/* 1. Preloder */
     $(window).on('load', function () {
       $('#preloader-active').delay(450).fadeOut('slow');
       $('body').delay(450).css({
@@ -29,7 +29,56 @@
       }, 800);
       return false;
     });
-  
+
+    $('#home-footer').on("click", function () {
+      $('body,html').animate({
+        scrollTop: 0
+      }, 800);
+      return false;
+    });
+
+    $('#start-btn.btn').on("click", function () {
+      $('body,html').animate({
+        scrollTop: 3300
+      }, 800);
+      return false;
+    });
+
+    $('#contact-hero').on("click", function () {
+      $('body,html').animate({
+        scrollTop: 3300
+      }, 800);
+      return false;
+    });
+
+    $('#contact-hero-about').on("click", function () {
+      $('body,html').animate({
+        scrollTop: 3000
+      }, 800);
+      return false;
+    });
+
+    $('#contact-hero-projects').on("click", function () {
+      $('body,html').animate({
+        scrollTop: 1450
+      }, 800);
+      return false;
+    });
+
+    $('#contact-footer').on("click", function () {
+    $('body,html').animate({
+      scrollTop: 3250
+      }, 800);
+      return false;
+    });
+
+    $('#explore-btn.hero-btn').on("click", function () {
+      $('body,html').animate({
+        scrollTop: 600
+      }, 800);
+      return false;
+    });
+
 
 /* 3. slick Nav */
 // mobile_menu
