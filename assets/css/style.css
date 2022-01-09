@@ -3138,7 +3138,7 @@ hr {
   position: absolute;
   right: 0;
   top: 20%;
-  transform: translateY(-20%);
+  transform: translate(0%, 5%);
   left: 0;
   margin: 0 auto;
   text-align: center;
@@ -3146,19 +3146,18 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .video-area .video-icon {
     top: 9%;
-    transform: translateY(-9%);
+    transform: translate(0%, 5%);
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .video-area .video-icon {
     top: 9%;
-    transform: translateY(-9%);
+    transform: translate(0%, 5%);
   }
 }
 @media (max-width: 575px) {
   .video-area .video-icon {
-    top: 6%;
-    transform: translateY(-6%);
+    transform: translate(0%, 5%);
   }
 }
 .video-area .video-icon a {
