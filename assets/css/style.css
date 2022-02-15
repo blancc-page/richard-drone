@@ -3135,7 +3135,7 @@ hr {
   bottom: 0;
   height: 100%;
 }
-.video-area .video-icon {
+.video-icon {
   position: absolute;
   right: 0;
   top: 20%;
@@ -3145,23 +3145,23 @@ hr {
   text-align: center;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .video-area .video-icon {
+.video-icon {
     top: 9%;
     transform: translate(0%, 5%);
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .video-area .video-icon {
+.video-icon {
     top: 9%;
     transform: translate(0%, 5%);
   }
 }
 @media (max-width: 575px) {
-  .video-area .video-icon {
+ .video-icon {
     transform: translate(0%, 5%);
   }
 }
-.video-area .video-icon a {
+ .video-icon a {
   background: #fff;
   color: #e7ba94;
   width: 75px;
@@ -3172,7 +3172,7 @@ hr {
   border-radius: 50%;
   margin-bottom: 74px;
 }
-.video-area .video-icon a::after {
+ .video-icon a::after {
   position: absolute;
   border: 76px solid rgba(255, 255, 255, 0.3);
   content: "";
@@ -3184,7 +3184,7 @@ hr {
   background: #0000;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .video-area .video-icon a::after {
+.video-icon a::after {
     border: 80px solid rgba(255, 255, 255, 0.3);
     left: -48px;
     top: -45px;
@@ -3192,7 +3192,7 @@ hr {
   }
 }
 @media (max-width: 575px) {
-  .video-area .video-icon a::after {
+.video-icon a::after {
     border: 50px solid rgba(255, 255, 255, 0.3);
     left: -19px;
     top: -19px;
@@ -3200,20 +3200,20 @@ hr {
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .video-area .video-icon a {
+.video-icon a {
     width: 60px;
     height: 60px;
     line-height: 60px;
   }
 }
 @media (max-width: 575px) {
-  .video-area .video-icon a {
+.video-icon a {
     width: 60px;
     height: 60px;
     line-height: 60px;
   }
 }
-.video-area .video-icon a i {
+.video-icon a i {
   font-size: 20px;
   font-size: 20px;
   line-height: 1;
@@ -3222,10 +3222,10 @@ hr {
   top: 2px;
   color: #e7ba94;
 }
-.video-area .video-icon a.btn-icon {
+.video-icon a.btn-icon {
   position: relative;
 }
-.video-area .video-icon a.btn-icon::before {
+.video-icon a.btn-icon::before {
   content: "";
   display: inline-block;
   position: absolute;
