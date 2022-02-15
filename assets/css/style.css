@@ -3088,6 +3088,7 @@ hr {
   right: 0px;
 }
 .video-area {
+  margin-top: 15px;
   position: relative;
   height: 1190px;
 }
@@ -3475,7 +3476,7 @@ hr {
   font-size: 16px;
 }
 .visit-tailor-area .tailor-offers {
-  background-image: url(../img/gallery/visit_bg.png);
+  background-image: url(../img/gallery/avipro-projects.jpg);
   background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6253,3 +6254,4 @@ del {
 .switch-wrap {
   margin-bottom: 10px;
 }
+

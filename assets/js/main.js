@@ -1,6 +1,5 @@
 (function ($)
   { "use strict"
-  
 
 /* 1. Preloder */
     $(window).on('load', function () {
@@ -257,7 +256,7 @@ $('.services-active').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false
+        arrows: true
       }
     },
   ]
@@ -331,4 +330,7 @@ $('.services-active').slick({
   $('#bar5').barfiller();
   $('#bar6').barfiller();
 
+
 })(jQuery);
+
+
